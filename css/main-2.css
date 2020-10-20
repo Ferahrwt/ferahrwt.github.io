@@ -1,0 +1,73 @@
+body,html{
+    height: 100%;
+    margin:0 auto;
+}   
+
+.link{
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 10px 15px;
+    font-family: bakso sapi;
+} 
+.link:hover{
+    background-color: #f0a500;
+    color: #000000;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/yor.jpg);
+    background-size: 100%;
+    text-align: right;
+    padding: 60px 0px;
+}
+/*heading*/
+.heading-1{
+    font-family: medula;
+    font-size: 50px;
+    color: #000000;
+    margin:0 auto;
+
+}
+.heading-2{
+    font-family: bakso sapi;
+    font-size: 50px;
+    color: 1a1c20;
+    margin: auto;
+}
+.heading-3{
+    font-family: arial;
+    font-size: 15px;
+    color: #000;
+    margin: 10px 5px;
+}
+
+/**Section Content**/
+.content{
+    width: 100%;
+    min-height: 400px;
+    background-color: f0a500;
+    padding: 100px 0px;
+}
+
+/**content 2**/
+.content2{
+    background: #f0a500;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    padding: 60px 0px;
+}
+.col-border{
+    min-height: 100%;
+    border: solid 5px #646464;
+    text-align: center;
+    padding:10px 10px;
+    position : left:50%;
+}
+.col-border .heading-2{
+    font-size: 25px;
+    margin-top: 20px;
+    background-color : #646464;
+    text-align: center;
+}
